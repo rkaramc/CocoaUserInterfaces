@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		4010528B15C27B2A00EFA8A6 /* working.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = working.py; sourceTree = "<group>"; };
+		4010528B15C27B2A00EFA8A6 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		404017B315C5AE11002B2517 /* ___PROJECTNAME___.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = "___PROJECTNAME___.py"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		4010527E15C27A5B00EFA8A6 = {
 			isa = PBXGroup;
 			children = (
-				4010528B15C27B2A00EFA8A6 /* working.py */,
+				404017B315C5AE11002B2517 /* ___PROJECTNAME___.py */,
+				4010528B15C27B2A00EFA8A6 /* main.py */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 0;
@@ -41,7 +43,7 @@
 		4010528015C27A5B00EFA8A6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Rajeev Karamcheti";
 			};
 			buildConfigurationList = 4010528315C27A5B00EFA8A6 /* Build configuration list for PBXProject "CocoaUserInterfaces" */;
@@ -111,6 +113,7 @@
 		4010528915C27A5B00EFA8A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUGGING_SYMBOLS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -123,6 +126,7 @@
 		4010528A15C27A5B00EFA8A6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -148,6 +152,7 @@
 				4010528A15C27A5B00EFA8A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
